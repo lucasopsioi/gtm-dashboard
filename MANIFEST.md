@@ -1,0 +1,263 @@
+# MANIFEST · salesboard
+
+> 旗舰：渠道销售 AI 分析产品 v84｜源：Salesboard｜构建：本文件由 build-staging.js 生成，逐文件处置如下
+> COPY=原样文本 RENAMED=做了名称脱敏 ZIPFIX=办公文件内部XML脱敏 BINARY=二进制原样 EXCLUDE=不进仓 REDACTED=打码模板
+
+BINARY   .gitignore
+BINARY   eval/deepseek.key
+COPY     app/ai-context.test.js
+COPY     app/color-memory-core.js
+COPY     app/concept-import.js
+COPY     app/cost-base.js
+COPY     app/custom-binding.test.js
+COPY     app/dos-window.test.js
+COPY     app/export-util.test.js
+COPY     app/filter-order.js
+COPY     app/fin-board.test.js
+COPY     app/fin-calc.js
+COPY     app/fin-calc.test.js
+COPY     app/fin-export.test.js
+COPY     app/fin-nsip.test.js
+COPY     app/fin-overview.test.js
+COPY     app/lib/echarts.min.js
+COPY     app/lib/jszip.min.js
+COPY     app/lib/pptxgen.bundle.js
+COPY     app/lib/xlsx.full.min.js
+COPY     app/nav-order.js
+COPY     app/pptoutput/binding-resolver.js
+COPY     app/pptoutput/binding-resolver.test.js
+COPY     app/pptoutput/designer/bindings.js
+COPY     app/pptoutput/designer/chart-render.js
+COPY     app/pptoutput/designer/chart-render.test.js
+COPY     app/pptoutput/designer/doc-model.js
+COPY     app/pptoutput/designer/export-pptx.js
+COPY     app/pptoutput/designer/export-pptx.test.js
+COPY     app/pptoutput/designer/geometry.js
+COPY     app/pptoutput/designer/geometry.test.js
+COPY     app/pptoutput/designer/history.js
+COPY     app/pptoutput/designer/history.test.js
+COPY     app/pptoutput/designer/numfmt.js
+COPY     app/pptoutput/designer/numfmt.test.js
+COPY     app/pptoutput/designer/store.test.js
+COPY     app/pptoutput/designer/weekly-core.js
+COPY     app/pptoutput/jszip-smoke.test.js
+COPY     app/pptoutput/manifest.test.js
+COPY     app/pptoutput/pptx-fill.js
+COPY     app/psi-chart.js
+COPY     app/psi-chart.test.js
+COPY     app/psi-order.test.js
+COPY     app/psi-stats.js
+COPY     app/roadmap-box.test.js
+COPY     app/roadmap-chart.test.js
+COPY     app/roadmap-core.js
+COPY     app/roadmap-date.test.js
+COPY     app/roadmap-detect.js
+COPY     app/roadmap-detect.test.js
+COPY     app/roadmap-launch-core.js
+COPY     app/roadmap-launch-core.test.js
+COPY     app/roadmap-lifecycle.test.js
+COPY     app/row-hide-core.js
+COPY     app/row-hide-core.test.js
+COPY     app/row-order-core.js
+COPY     app/row-order-core.test.js
+COPY     app/shipment-base.js
+COPY     app/sosim-calc.js
+COPY     app/sosim-calc.test.js
+COPY     app/sosim-export.js
+COPY     app/sources-info.test.js
+COPY     app/splash-preload.js
+COPY     app/table-sort-core.js
+COPY     app/textout-core.test.js
+COPY     engine-snapshot.js
+COPY     eval/README.md
+COPY     eval/discover.js
+COPY     eval/engine-tools.js
+COPY     eval/finance-set.js
+COPY     eval/finance-truth.txt
+COPY     eval/ground-truth.js
+COPY     eval/param-set.js
+COPY     eval/runs/run-2026-08-25-15-53-23.json
+COPY     eval/runs/run-2026-08-25-16-08-14.json
+COPY     eval/runs/run-2026-08-26-01-53-27.json
+COPY     eval/runs/run-2026-08-26-01-57-15.json
+COPY     eval/runs/run-2026-08-26-02-01-49.json
+COPY     eval/runs/run-2026-08-28-20-31-07-dry.json
+COPY     eval/runs/run-2026-08-28-20-48-48.json
+COPY     eval/runs/run-2026-08-28-20-49-19.json
+COPY     eval/runs/run-2026-08-28-21-02-30-dry.json
+COPY     eval/runs/run-2026-08-28-21-16-25-dry.json
+COPY     eval/runs/run-2026-08-28-22-22-12.json
+COPY     eval/runs/run-2026-08-30-03-24-46.json
+COPY     eval/runs/run-2026-08-31-04-18-27.json
+COPY     eval/runs/run-2026-08-31-05-57-55.json
+COPY     eval/runs/run-2026-08-31-06-00-31.json
+COPY     eval/runs/run-2026-08-31-23-07-30.json
+COPY     eval/runs/run-2026-08-31-23-17-09.json
+COPY     eval/runs/run-2026-09-01-00-36-44.json
+COPY     eval/runs/run-2026-09-01-01-50-52-dry.json
+COPY     scripts/make-demo-data.js
+COPY     scripts/run-tests.js
+COPY     scripts/verify-weekly-v3.js
+COPY     version.json
+OVERLAY  LICENSE（docs-src 提供）
+OVERLAY  README.md（docs-src 提供）
+OVERLAY  docs/EVALUATION.md（docs-src 提供）
+OVERLAY  docs/screenshots/agent-flow.png（docs-src 提供）
+OVERLAY  docs/screenshots/ai-analyst.png（docs-src 提供）
+OVERLAY  docs/screenshots/business-review.png（docs-src 提供）
+OVERLAY  docs/screenshots/country-board.png（docs-src 提供）
+OVERLAY  docs/screenshots/industry.png（docs-src 提供）
+OVERLAY  docs/screenshots/inventory.png（docs-src 提供）
+OVERLAY  docs/screenshots/psi-analytics.png（docs-src 提供）
+OVERLAY  docs/screenshots/summary-table.png（docs-src 提供）
+RENAMED  app/agent-board.js
+RENAMED  app/ai-context.js
+RENAMED  app/ai-orchestrator.js
+RENAMED  app/ai-orchestrator.test.js
+RENAMED  app/ai-panel.js
+RENAMED  app/ai-tools.test.js
+RENAMED  app/app.js
+RENAMED  app/archive-store.js
+RENAMED  app/archive-store.test.js
+RENAMED  app/archive-versioned.test.js
+RENAMED  app/archive.js
+RENAMED  app/audio-export.js
+RENAMED  app/audio-export.test.js
+RENAMED  app/audio-weekly-core.js
+RENAMED  app/audio-weekly.test.js
+RENAMED  app/channel-resolve.test.js
+RENAMED  app/chart-theme.js
+RENAMED  app/color-memory-core.test.js
+RENAMED  app/common.js
+RENAMED  app/demo-seed.js
+RENAMED  app/design-tokens.css
+RENAMED  app/export-util.js
+RENAMED  app/filter-order.test.js
+RENAMED  app/fin-achieve.test.js
+RENAMED  app/fin-bpboard.test.js
+RENAMED  app/fin-bpversion.test.js
+RENAMED  app/fin-custom.test.js
+RENAMED  app/fin-gm-pick.test.js
+RENAMED  app/fin-health.test.js
+RENAMED  app/fin-psi-actual.test.js
+RENAMED  app/fin-psi-join.test.js
+RENAMED  app/fin-psi-repname.test.js
+RENAMED  app/fin-realfmt.test.js
+RENAMED  app/fin-route.test.js
+RENAMED  app/fin-units.test.js
+RENAMED  app/fob-core.js
+RENAMED  app/fob-core.test.js
+RENAMED  app/fob-reports.js
+RENAMED  app/fob-sample.js
+RENAMED  app/fob-store.js
+RENAMED  app/fob-store.test.js
+RENAMED  app/glass.css
+RENAMED  app/i18n.js
+RENAMED  app/i18n.test.js
+RENAMED  app/icons.js
+RENAMED  app/index.html
+RENAMED  app/industry-lifecycle.test.js
+RENAMED  app/industry-trend.test.js
+RENAMED  app/pptoutput/designer/bindings.test.js
+RENAMED  app/pptoutput/designer/doc-model.test.js
+RENAMED  app/pptoutput/designer/store.js
+RENAMED  app/pptoutput/designer/weekly-core.test.js
+RENAMED  app/pptoutput/pptx-fill.test.js
+RENAMED  app/pptoutput/presets-default.js
+RENAMED  app/pptoutput/templates/latam-phone-review.js
+RENAMED  app/pricing-core.js
+RENAMED  app/pricing-core.test.js
+RENAMED  app/pricing-lib.js
+RENAMED  app/pricing-model.js
+RENAMED  app/pricing-model.test.js
+RENAMED  app/pricing-ui.js
+RENAMED  app/psi-stats.test.js
+RENAMED  app/roadmap-chart.js
+RENAMED  app/roadmap-core.test.js
+RENAMED  app/roadmap-fob.test.js
+RENAMED  app/roadmap-import-core.js
+RENAMED  app/roadmap-launch-ui.js
+RENAMED  app/roadmap-launch.test.js
+RENAMED  app/roadmap-packaging.test.js
+RENAMED  app/roadmap-ui.js
+RENAMED  app/settings-panel.js
+RENAMED  app/shipment-base.test.js
+RENAMED  app/sosim-core.js
+RENAMED  app/sosim-core.test.js
+RENAMED  app/sosim-export.test.js
+RENAMED  app/sosim-source.test.js
+RENAMED  app/splash.html
+RENAMED  app/table-sort-core.test.js
+RENAMED  app/textout-core.js
+RENAMED  app/ui-kit.js
+RENAMED  app/views/agentchat-view.js
+RENAMED  app/views/audio-ind.js
+RENAMED  app/views/audio-newprod.js
+RENAMED  app/views/audio-view.js
+RENAMED  app/views/country-view.js
+RENAMED  app/views/custom-view.js
+RENAMED  app/views/designer-view.js
+RENAMED  app/views/finance-view.js
+RENAMED  app/views/fob-view.js
+RENAMED  app/views/industry-view.js
+RENAMED  app/views/inventory-view.js
+RENAMED  app/views/pptoutput-view.js
+RENAMED  app/views/psi-view.js
+RENAMED  app/views/report-view.js
+RENAMED  app/views/source-view.js
+RENAMED  app/views/textout-view.js
+RENAMED  app/weekly-chips.js
+RENAMED  app/weekly-chips.test.js
+RENAMED  app/weekly-narrative.js
+RENAMED  demo-data/README.md
+RENAMED  engine-core.js
+RENAMED  engine-custom.js
+RENAMED  engine-finance.js
+RENAMED  engine-industry.js
+RENAMED  engine-psi.js
+RENAMED  engine-report.js
+RENAMED  engine.js
+RENAMED  eval/apply-review.js
+RENAMED  eval/eval-set.js
+RENAMED  eval/run-eval.js
+RENAMED  eval/runs/run-2026-08-25-04-05-40.json
+RENAMED  eval/runs/run-2026-08-25-15-20-02.json
+RENAMED  eval/runs/run-2026-08-25-21-52-30.json
+RENAMED  eval/runs/run-2026-08-25-21-55-32.json
+RENAMED  eval/runs/run-2026-08-25-21-58-40.json
+RENAMED  eval/runs/run-2026-08-26-02-19-02.json
+RENAMED  eval/runs/run-2026-08-26-02-22-24.json
+RENAMED  eval/runs/run-2026-08-26-02-36-28.json
+RENAMED  eval/runs/run-2026-08-28-20-45-28.json
+RENAMED  eval/runs/run-2026-08-28-21-00-42.json
+RENAMED  eval/runs/run-2026-08-28-21-13-32.json
+RENAMED  eval/runs/run-2026-08-28-21-29-06.json
+RENAMED  eval/runs/run-2026-08-28-22-37-08.json
+RENAMED  eval/runs/run-2026-08-28-22-54-29.json
+RENAMED  eval/runs/run-2026-08-28-23-12-20.json
+RENAMED  eval/runs/run-2026-08-28-23-32-14.json
+RENAMED  eval/runs/run-2026-08-28-23-52-16.json
+RENAMED  eval/runs/run-2026-08-30-03-43-31.json
+RENAMED  eval/runs/run-2026-08-30-04-00-36.json
+RENAMED  eval/runs/run-2026-08-31-03-23-25.json
+RENAMED  eval/runs/run-2026-09-01-02-05-01.json
+RENAMED  eval/runs/run-2026-09-01-02-21-58.json
+RENAMED  eval/runs/run-2026-09-01-02-36-58.json
+RENAMED  main.js
+RENAMED  package-lock.json
+RENAMED  package.json
+RENAMED  preload.js
+RENAMED  scripts/set_deepseek_key.py
+ZIPFIX   app/fixtures/slatetab12x-overview.docx（改1个内部XML）
+ZIPFIX   app/pptoutput/templates/latam-phone-review.pptx（改17个内部XML）
+
+## 未进仓（按顶层路径归并，共 11150 个文件）
+
+- `node_modules` — 排除 10665 个文件
+- `dist` — 排除 175 个文件
+- `dist-interview` — 排除 175 个文件
+- `.git` — 排除 95 个文件
+- `eval` — 排除 27 个文件
+- `demo-data` — 排除 5 个文件
+- `scripts` — 排除 5 个文件
+- `app` — 排除 3 个文件
